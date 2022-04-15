@@ -1,14 +1,54 @@
 
-qwe1qwe12ionwqeon12on2
-qwe12eq
-wqe121qwenqwio
-r22131
-
-
-testtesttesting
-
-:g
-
 ntoqwerewtnqoweink
-w
+123
+i need moorrrrrrrrrred characterssssssssssssssss pleassssssssssssssssse
+hello world
+seeya
+i need moorrrrrrrrrred characterssssssssssssssss pleassssssssssssssssse
+i need moorrrrrrrrrred characterssssssssssssssss pleassssssssssssssssse
+i need moorrrrrrrrrred characterssssssssssssssss pleassssssssssssssssse
+i need moorrrrrrrrrred characterssssssssssssssss pleassssssssssssssssse
+i need moorrrrrrrrrred characterssssssssssssssss pleassssssssssssssssse
+i need moorrrrrrrrrred characterssssssssssssssss pleassssssssssssssssse
+	 pleasssssssssss
+insert mode:
+12345ABC67890
+
+write mode:
+1234567890
+
+open mode:
+1234567890
+ABC
+
+Shift+insert mode: (Begining of the line)
+ABC12345
+
+Shift+a mode: (End of the line)
+12345ABC
+
+Shift+open mode: (Open a line above)
+ABC
+12345
+
+// Visual Block mode - Control + v => d (delete)
+ineed moorrrrrrrrrred characterssssssssssssssss pleassssssssssssssssse
+ineed moorrrrrrrrrred characterssssssssssssssss pleassssssssssssssssse
+ineed moorrrrrrrrrred characterssssssssssssssss pleassssssssssssssssse
+ineed moorrrrrrrrrred characterssssssssssssssss pleassssssssssssssssse
+ineed moorrrrrrrrrred characterssssssssssssssss pleassssssssssssssssse
+ineed moorrrrrrrrrred characterssssssssssssssss pleassssssssssssssssse
+	
+// Visual line mode - Shift + v
+
+i need more characterssssssssssssssss pleassssssssssssssssse
+i need more characterssssssssssssssss pleassssssssssssssssse
+i need more characterssssssssssssssss pleassssssssssssssssse
+i need more characterssssssssssssssss pleassssssssssssssssse
+i need more characterssssssssssssssss pleassssssssssssssssse
+i need more characterssssssssssssssss pleassssssssssssssssse
+
+// mark a waypoint
+here is the location marked (with ma as mark as a)
+	use 'a to move to that location
 

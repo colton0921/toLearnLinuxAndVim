@@ -1,3 +1,127 @@
 cd /mnt/c
 -- to change directory to c: drive
 
+cd "Users/User/Google Drive(0921)/DataScience/GithubRepository/toLearnLinuxAndVim"
+
+vi text.txt
+
+Interaction
+
+    :w => save file
+    :w [filename.txt] => save as new file
+    :q => quit
+    :q! => quit without saving
+    :wq
+    5> => move to the right five times
+    h and l => left and right
+    j and k => up and down
+    t[a word] => to one position before that word
+    f[a word] => find that word
+    T and F => backwards
+3:
+    u => undo
+    Ctrl+r => redo
+4:
+    gg => beginning of the file
+    G => end of hte file
+    [line number]G => go to that line
+
+Layout
+
+    :set number
+    :set relativenumber
+    :colorscheme [Tab] to pick one and enter to confirm
+
+Layout config file
+
+    vi ~/.vimrc
+    set number
+    set relativenumber
+    set tabstop=4
+    set shiftwidth=4
+    set autoindent
+    set mouse=a
+    colorschema slate
+
+Command mode
+
+    :! dir
+
+Browse mode:
+
+    Arrow key
+    Search word [TODO]
+    w / e => next word
+    b => before word
+    0 / $ => go to end or beginning of the line
+
+Visual mode:
+press v
+
+    d => delete
+    y => copy
+    p => paste
+    dd => delete the whole line
+    yy => copy the whole line
+    P => paste above the line
+    c => cut [ you will be in edit mode]
+    D => Delete the rest of the line
+    r => Replace
+
+ insert mode: (in the cursor)
+  6 12345ABC67890
+  7
+  8 write mode:
+  9 1234567890
+ 10
+ 11 open mode: (Create a line below)
+ 12 1234567890
+ 13 ABC
+ 14
+ 15 Shift+insert mode: (Begining of the line)
+ 16 ABC12345
+ 17
+ 18 Shift+a mode: (End of the line)
+ 19 12345ABC
+ 20
+ 21 Shift+open mode: (Open a line above)
+ 22 ABC
+ 23 12345
+
+
+
+Intermediate 
+
+>>  => Indient
+<<  => reverse
+
+Ctrl+v => Block mode
+== => Auto indient
+gg=G => Auto indient the whole file
+
+Search:
+
+    /[search word] => search and go to certain word
+        press n => go to the next search
+        press Capital N => go to previous search
+    ?[search word] => search backwards
+
+Mark and travel to a waypoint:
+
+    ma => mark as a
+    'a => travel to that a location
+
+Replace
+
+whole file:
+    :%s/[search word]/[replace word] //g
+    : => command
+    % => whole file
+    s => search
+    g => (noo need)
+specific area:
+    use visual mode to select a few lines
+    :s/[search word]/[replace word]
+
+save and add a cheatsheet [TODO]
+https://www.youtube.com/watch?v=RZ4p-saaQkc
